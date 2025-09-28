@@ -9,7 +9,7 @@ color=(255, 0, 0)
 velocity=5
 running=True
 while running:
-    screen.fill((30, 30, 30))
+    screen.fill((80  , 30, 30))
 
     for event in pygame.event.get():
         if event.type==pygame.QUIT:
